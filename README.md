@@ -5,17 +5,6 @@ Patients are processed based on urgency and arrival rules using a **binary heap*
 
 ---
 
-## Problem Statement
-
-Zeigen Health manages emergency patients using the following rules:
-
-- Patients with **higher urgency_score (1–10)** are treated first
-- If urgency scores are equal, the patient with the **lower patient_id** is prioritized
-- New patients can arrive while processing is ongoing
-- Duplicate patient IDs should update the existing patient’s details
-
----
-
 ## Solution Approach
 
 - Implemented an **array-based binary heap**
